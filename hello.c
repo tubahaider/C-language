@@ -57,7 +57,7 @@ int main(){
   return 0;
 }
 
-//
+//modular operator
 #include<stdio.h>
 #include<math.h>
 int main(){
