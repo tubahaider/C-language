@@ -65,3 +65,20 @@ int main(){
   return 0;
 
 }
+//conditional statements -(if - else)
+#include<stdio.h>
+int main(){
+  int age ;
+  printf("Enter the age :");
+  scanf("%d", &age);
+
+
+  if (age >=18){
+    printf("The person is adult");
+  }
+  else {
+    printf("The person is not adult");
+  }
+  return 0;
+  
+}
