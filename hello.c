@@ -46,7 +46,7 @@ int main (){
   return 0;
 
  }
- 
+ //area of square
 #include<stdio.h>
 int main(){
   int side , area;
@@ -55,4 +55,13 @@ int main(){
   area = side * side ;
   printf("Enter the area of square: %d/n",area);
   return 0;
+}
+
+//
+#include<stdio.h>
+#include<math.h>
+int main(){
+  printf("%d",16%10);
+  return 0;
+
 }
