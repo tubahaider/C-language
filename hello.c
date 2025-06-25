@@ -47,4 +47,12 @@ int main (){
 
  }
  
-
+#include<stdio.h>
+int main(){
+  int side , area;
+  printf("Enter the side of square :");
+  scanf("%d", &side);
+  area = side * side ;
+  printf("Enter the area of square: %d/n",area);
+  return 0;
+}
