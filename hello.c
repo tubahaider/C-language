@@ -1,5 +1,5 @@
 
-
+/*
 #include<stdio.h>
 int main (){
   printf("Hello world ");
@@ -82,6 +82,7 @@ int main(){
   return 0;
   
 }
+ 
 //if,else-if,else
 #include<stdio.h>
 int main (){
@@ -100,3 +101,13 @@ int main (){
 
   }
 }
+  */
+ //Ternary 
+ #include<stdio.h>
+ int main(){
+  int age ;
+  printf("enter age:");
+  scanf("%d", &age );
+  age>= 18? printf("adult\n"):printf("not adult \n");
+  return 0;
+ }
