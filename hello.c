@@ -1,5 +1,5 @@
 
-/*
+
 #include<stdio.h>
 int main (){
   printf("Hello world ");
@@ -111,7 +111,7 @@ int main (){
   age>= 18? printf("adult\n"):printf("not adult \n");
   return 0;
  }
-  */
+  
  //Swith formet
  #include<stdio.h>
  int main(){
@@ -142,3 +142,25 @@ int main (){
  
   }
 
+//Nested switch -
+
+#include<stdio.h>
+int main(){
+  int number;
+  printf("enter number:");
+  scanf("%d", &number);
+
+  if (number >=0){
+    printf("positive\n");
+    if (number %2 ==0){
+      printf("even\n");
+    }else{
+      printf("odd\n");
+    }
+  }
+  else{
+    printf("negative\n");
+
+  }
+  return 0;
+}
