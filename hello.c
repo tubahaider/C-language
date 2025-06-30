@@ -164,3 +164,27 @@ int main(){
   }
   return 0;
 }
+//Write a program to check if a student passed or failed. MArk>=30 is PASS ;<=30 is FAIL-
+
+#include<stdio.h>
+int main (){
+  int marks ;
+  printf ("enter number (0-100):");
+  scanf ("%d", &marks );
+  if (marks<=30){
+    printf("FAIL\n");
+  } else {
+    printf("PASS\n");
+  }
+  return 0;
+}
+//In Ternary method -
+
+#include<stdio.h>
+int main(){
+  int marks ;
+  printf("Enter the number (0-100): ");
+  scanf("%d", &marks);
+  marks<=30? printf("FAIL\n"):printf("PASS\n");
+  return 0 ;
+}
