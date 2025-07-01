@@ -207,3 +207,21 @@ scanf("%d", &marks);
  }
  return 0;
  }
+ //write a program to find if a character entered by user in upper case or not-
+ #include<stdio.h>
+ int main(){
+  char ch;
+  printf(" Enter the character:");
+  scanf("%c", &ch);
+
+  if (ch>='A' && ch<='Z'){
+    printf("The character is Upper case\n");
+  }
+  else if (ch>='a' && ch<='z'){
+    printf("The character is Lower case\n");
+  }
+  else{
+    printf("Not a valid character\n");
+  }
+  return 0 ;
+ }
